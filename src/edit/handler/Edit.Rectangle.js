@@ -80,8 +80,8 @@ L.Edit.Rectangle = L.Edit.SimpleShape.extend({
 		this._shape.setBounds(L.latLngBounds(latlng, this._oppositeCorner));
 
 		// Reposition the move marker
-		bounds = this._shape.getBounds();
-		this._moveMarker.setLatLng(bounds.getCenter());
+		//bounds = this._shape.getBounds();
+		//this._moveMarker.setLatLng(bounds.getCenter());
 	},
 
 	_getCorners: function () {
